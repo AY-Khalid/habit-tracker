@@ -137,7 +137,7 @@ export default function HabitCard({ habit, onHabitsChange }: Props) {
                         : 'bg-indigo-600 text-white hover:bg-indigo-700 focus:ring-indigo-500'
                       }`}
         >
-          {isCompletedToday ? '<<< Completed >>>' : 'Mark Complete'}
+          {isCompletedToday ? 'Completed' : 'Mark Complete'}
         </button>
 
         {/* Edit Button */}
